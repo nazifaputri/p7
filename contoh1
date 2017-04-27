@@ -1,0 +1,20 @@
+#include <iostream> //define iostream
+using namespace std; //menggunakan std
+
+int main() //program utama
+{
+    //3! = 3x2x1 = 6
+    //faktorial
+    int angka;
+    int hasil=1;
+
+    cout<<"Masukkan Angka: ";
+    cin>>angka;
+
+    do{
+        hasil=hasil*angka;
+        angka=angka-1;
+    }while(angka>=1);
+
+    cout<<"Hasil = "<<hasil;
+}
